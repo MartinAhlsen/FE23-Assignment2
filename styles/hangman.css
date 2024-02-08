@@ -2,9 +2,10 @@ body {
     height: 100vh;
     box-sizing: border-box;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.969);
-    color:#00ff11;
+    color: #00ff11;
 }
 
 header {
@@ -12,7 +13,7 @@ header {
     height: 150px;
     align-items: center;
     justify-content: center;
-
+    padding-top: 100px;
 }
 
 main-content {
@@ -45,5 +46,3 @@ footer {
     align-items: center;
     justify-content: center;
 }
-
-
